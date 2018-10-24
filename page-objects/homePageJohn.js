@@ -92,7 +92,7 @@ class homePageJohn{
     //Verification of the total credit outstanding for John
     creditBal.getText().then(function (text) {
       console.log("Total credit outstanding for John is: "+text);
-      var creditBalanceToVerify = "£ 4,600"; //Expected total credit outstanding for John
+      var creditBalanceToVerify = "£ 5,700"; //Expected total credit outstanding for John
       if (text == creditBalanceToVerify) {
         console.log("Verification of total credit outstanding for John has succeeded!");
       }
