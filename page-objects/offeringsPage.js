@@ -6,8 +6,7 @@ class offeringsPage{
     switchNowButtonClick(){
         //switch now button on offerings page
         var switchNow=driver.findElement(By.css(".switch-button"));
-        driver.executeScript("arguments[0].scrollIntoView()", switchNow); // Keeps the element in screenview
-    
+         
         driver.sleep(300);
     
         switchNow.click();
